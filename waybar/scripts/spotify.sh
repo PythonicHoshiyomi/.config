@@ -7,5 +7,5 @@ title=$(playerctl -p spotify metadata title 2>/dev/null)
 if [ -n "$artist" ] && [ -n "$title" ]; then
   echo "{\"text\": \"$artist - $title\", \"tooltip\": \"$title by $artist\"}"
 else
-  echo "{\"text\": \"󰓇  Not Playing\", \"tooltip\": \"Spotify is not playing\"}"
+  echo "{\"text\": \"Not Playing\", \"tooltip\": \"Spotify is not playing\"}"
 fi
