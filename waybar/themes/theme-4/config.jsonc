@@ -1,0 +1,28 @@
+{
+  "margin-top": 5,
+  "margin-left": 10,
+  "margin-right": 10,
+  "margin-bottom": 5,
+  "height": 30,
+  "modules-left": [
+    "hyprland/window"
+  ],
+  "modules-center": [
+    "hyprland/workspaces"
+  ],
+  "modules-right": [
+    "pulseaudio",
+    "clock"
+  ],
+  "hyprland/window": {
+    "format": "{}",
+    "max-length": 35,
+    "rewrite": {
+      "": "Hyprland",
+      "Spotify Free": "Spotify",
+    },
+    "separate-outputs": true,
+    "icon": true,
+    "icon-size": 14
+  },
+}
