@@ -1,0 +1,11 @@
+@import "mocha.css";
+
+.notification, .control-center, .notification-content,.text-button {
+    border-radius: 0;
+    background: @base;
+    border: 1.4 solid @lavender;
+}
+
+.widget-buttons-grid {
+    background: none;
+}
